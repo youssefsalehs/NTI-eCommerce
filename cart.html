@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart</title>
+    <link rel="stylesheet" href="styles/all.min.css" />
+    <link rel="stylesheet" href="styles/bootstrap.min.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark fixed-top">
+      <div
+        class="container px-lg-5 justify-content-center gap-4 align-items-center"
+      >
+        <a class="navbar-brand fs-2 text-white" href="index.html"
+          >NTI E-COMMERCE</a
+        >
+        <div class="">
+          <a class="nav-link" aria-current="page" href="cart.html"
+            ><i class="fa-solid fa-cart-shopping fs-3 text-success"></i
+          ></a>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar -->
+    <section id="cart" class="my-5 py-5">
+      <div class="container mb-4">
+        <h1 class="text-center text-success mb-0">cart</h1>
+        <div class="row">
+          <div>
+            <button type="button" class="btn btn-success">
+              <a href="index.html" class="homestore"
+                ><i class="fa-solid fa-arrow-left"></i> Back To
+                <i class="fa-solid fa-store ms-1 fs-5"></i
+              ></a>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div id="cartsection" class="mx-auto container row"></div>
+    </section>
+    <script src="scripts/cart.js" defer></script>
+    <!-- Bootstrap -->
+    <script src="scripts/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
